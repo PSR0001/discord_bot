@@ -29,7 +29,15 @@ client.on('message', async (msg) => {
   else if (msg.content === 'gg') {
     msg.reply(`GG Boss!`);
   }
-  
+  else if(msg.content === '--help') {
+    msg.reply(` --help -> for halp
+    kool , ok , gg , thank U 
+    
+    for using gif on chat : use !gif command 
+    u can also pass a parameter.
+    Example: !gif puppy`);
+  }
+
   // -----------ends here----------------
 
   // token------------------
