@@ -1,0 +1,19 @@
+{
+  "name": "discord-bot",
+  "version": "1.0.0",
+  "description": "this is my first discord bot",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "partha",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.2.0",
+    "distube": "^2.8.8",
+    "dotenv": "^10.0.0",
+    "node-fetch": "^2.6.1",
+    "yt-search": "^2.10.2",
+    "ytdl-core": "^4.9.1"
+  }
+}
